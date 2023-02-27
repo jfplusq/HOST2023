@@ -25,7 +25,7 @@ cd PROTOCOL
 # (whatever copy method you use)
 
 # 9) Change directory back to DATABASE
-../DATABASE
+cd ../DATABASE
 
 # 10) Compile the programs.
 make -f Makefile_AddChallengeDB
