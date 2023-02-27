@@ -1,0 +1,13 @@
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE IF NOT EXISTS ChallengeVecPairs ( 
+   id INTEGER PRIMARY KEY,
+   Chlng INTEGER NOT NULL,
+   VecPair INTEGER NOT NULL, 
+   PSM INTEGER NOT NULL, 
+   FOREIGN KEY (VecPair) REFERENCES VecPairs(id) ON UPDATE CASCADE ON DELETE CASCADE
+   FOREIGN KEY (Chlng) REFERENCES Challenges(id) ON UPDATE CASCADE ON DELETE CASCADE
+   );
+
+CREATE UNIQUE INDEX ChallengeVecPairs_Chlng_ID_index ON ChallengeVecPairs (Chlng, ID);
+CREATE UNIQUE INDEX ChallengeVecPairs_ID_index ON ChallengeVecPairs (ID);

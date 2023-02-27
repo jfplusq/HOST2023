@@ -1,0 +1,20 @@
+CC = gcc
+FLAGS = -Wall -Wno-format-overflow
+DEFINES = 
+INCLUDE_PATHS = -I./ -I../PROTOCOL
+LIB_PATHS = 
+LIBS = 
+
+OBJS = utility.o commonDB.o add_PUFDesign_challengeDB.o 
+
+add_PUFDesign_challengeDB	:$(OBJS)
+			${CC} $(OBJS) ${LIB_PATHS} $(LIBS) $(LINK_FLAGS) -o add_PUFDesign_challengeDB -lsqlite3 -lm
+
+utility.o		:../PROTOCOL/utility.c ../PROTOCOL/utility.h
+			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c ../PROTOCOL/utility.c 
+
+commonDB.o		:commonDB.c commonDB.h
+			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c commonDB.c 
+
+add_PUFDesign_challengeDB.o	:add_PUFDesign_challengeDB.c commonDB.h 
+			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c add_PUFDesign_challengeDB.c 

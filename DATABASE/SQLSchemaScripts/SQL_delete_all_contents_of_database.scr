@@ -1,0 +1,12 @@
+PRAGMA foreign_keys = ON;
+delete from PUFDesign;
+delete from Vectors;
+delete from PathSelectMasks;
+select * from PUFDesign;
+select * from VecPairs;
+select * from Vectors;
+select * from PUFInstance;
+select * from TimingVals;
+select * from Challenges;
+select * from ChallengeVecPairs;
+select * from PathSelectMasks;

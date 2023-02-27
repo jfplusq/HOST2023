@@ -1,0 +1,21 @@
+CC = gcc
+FLAGS = -Wall -Wno-format-overflow
+DEFINES = 
+INCLUDE_PATHS = -I./ -I../PROTOCOL
+LIB_PATHS = 
+LIBS = 
+
+OBJS = utility.o commonDB.o enrollDB.o 
+
+enrollDB	:$(OBJS)
+			${CC} $(OBJS) ${LIB_PATHS} $(LIBS) $(LINK_FLAGS) -o enrollDB -lsqlite3 -lm
+
+utility.o		:../PROTOCOL/utility.c ../PROTOCOL/utility.h
+			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c ../PROTOCOL/utility.c 
+
+commonDB.o		:commonDB.c commonDB.h
+			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c commonDB.c 
+
+enrollDB.o		:enrollDB.c commonDB.h 
+			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c enrollDB.c 
+
