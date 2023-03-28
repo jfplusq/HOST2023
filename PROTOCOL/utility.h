@@ -9,9 +9,6 @@
 // Engineer: Professor Jim Plusquellic
 // Exclusive License: IC-Safety, LLC
 // Copyright: Univ. of New Mexico
-// 
-// Create Date: 8/15/2015
-// Functions covered by License and Copyright: All 
 //--------------------------------------------------------------------------------
 
 #include <unistd.h>
