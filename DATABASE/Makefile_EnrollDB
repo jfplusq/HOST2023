@@ -8,7 +8,7 @@ LIBS =
 OBJS = utility.o commonDB.o enrollDB.o 
 
 enrollDB	:$(OBJS)
-			${CC} $(OBJS) ${LIB_PATHS} $(LIBS) $(LINK_FLAGS) -o enrollDB -lsqlite3 -lm
+			${CC} $(OBJS) ${LIB_PATHS} $(LIBS) $(LINK_FLAGS) -no-pie -o enrollDB -lsqlite3 -lm
 
 utility.o		:../PROTOCOL/utility.c ../PROTOCOL/utility.h
 			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c ../PROTOCOL/utility.c 

@@ -8,7 +8,7 @@ LIBS =
 OBJS = utility.o commonDB.o add_PUFDesign_challengeDB.o 
 
 add_PUFDesign_challengeDB	:$(OBJS)
-			${CC} $(OBJS) ${LIB_PATHS} $(LIBS) $(LINK_FLAGS) -o add_PUFDesign_challengeDB -lsqlite3 -lm
+			${CC} $(OBJS) ${LIB_PATHS} $(LIBS) $(LINK_FLAGS) -nopie -o add_PUFDesign_challengeDB -lsqlite3 -lm
 
 utility.o		:../PROTOCOL/utility.c ../PROTOCOL/utility.h
 			${CC} ${FLAGS} ${DEFINES} ${INCLUDE_PATHS} -c ../PROTOCOL/utility.c 
