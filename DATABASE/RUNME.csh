@@ -184,6 +184,11 @@ sqlite3 Challenges.db < SQLSchemaScripts/SQL_ChallengeVecPairs_create_table.sql
    enrollDB NAT_Master_TDC.db SR_RFM_V4_TDC SRFSyn1 ZYBO P3 Z_jargyres_8008 392 32 ../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs 0 ../ProvisionData/Z_jargyres_8008_SR_RFM_V4_TDC_P3_25C_1.00V_NCs_2000_E_PUFNums.txt >> output/enrollDB_SR_RFM_V4_TDC_SRFSyn1_Cx_Vx.txt
    enrollDB NAT_Master_TDC.db SR_RFM_V4_TDC SRFSyn1 ZYBO P4 Z_jargyres_8008 392 32 ../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs 0 ../ProvisionData/Z_jargyres_8008_SR_RFM_V4_TDC_P4_25C_1.00V_NCs_2000_E_PUFNums.txt >> output/enrollDB_SR_RFM_V4_TDC_SRFSyn1_Cx_Vx.txt
 
+   enrollDB NAT_Master_TDC.db SR_RFM_V4_TDC SRFSyn1 ZYBO P1 C_BenjaminClarizza_N6 392 32 ../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs 0 ../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P1_25C_1.00V_NCs_2000_E_PUFNums.txt >> output/enrollDB_SR_RFM_V4_TDC_SRFSyn1_Cx_Vx.txt
+   enrollDB NAT_Master_TDC.db SR_RFM_V4_TDC SRFSyn1 ZYBO P2 C_BenjaminClarizza_N6 392 32 ../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs 0 ../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P2_25C_1.00V_NCs_2000_E_PUFNums.txt >> output/enrollDB_SR_RFM_V4_TDC_SRFSyn1_Cx_Vx.txt
+   enrollDB NAT_Master_TDC.db SR_RFM_V4_TDC SRFSyn1 ZYBO P3 C_BenjaminClarizza_N6 392 32 ../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs 0 ../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P3_25C_1.00V_NCs_2000_E_PUFNums.txt >> output/enrollDB_SR_RFM_V4_TDC_SRFSyn1_Cx_Vx.txt
+   enrollDB NAT_Master_TDC.db SR_RFM_V4_TDC SRFSyn1 ZYBO P4 C_BenjaminClarizza_N6 392 32 ../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs 0 ../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P4_25C_1.00V_NCs_2000_E_PUFNums.txt >> output/enrollDB_SR_RFM_V4_TDC_SRFSyn1_Cx_Vx.txt
+
 
 # 13) Add challenge to NAT_Master_TDC.db
 add_challengeDB NAT_Master_TDC.db SR_RFM_V4_TDC SRFSyn1 Master1_OptKEK_TVN_0.00_WID_1.75 ../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10 ../CHALLENGES/optKEK_qualifing_path_TVN_0.00_WID_1.75_SetSize_64000 1 > output/add_challengeDB_SRFSyn1_Master1_OptKEK_TVN_0.00_WID_1.75.txt

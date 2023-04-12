@@ -2798,3 +2798,131 @@ Adding PUFDesign	Netlist name 'SR_RFM_V4_TDC': Synthesis name 'SRFSyn1'	Chip nam
 ENROLL:	PUFDesign 1: PUFInstance 100	For Num Vectors 2000
 	Wrote Total TimingVals 64000
 Saving 'in memory' database back to filesystem 'NAT_Master_TDC.db'
+Master DB 'NAT_Master_TDC.db'	Netlist name 'SR_RFM_V4_TDC'	Synthesis name 'SRFSyn1'	Device name 'ZYBO'	Placement name 'P1'	Chip name 'Z_jargyres_8008'
+	MasterVecPrefix '../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs'
+	Chip enroll datafile '../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P1_25C_1.00V_NCs_2000_E_PUFNums.txt'
+
+MasterVecFile
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs.txt'
+MasterMaskFile USED ONLY if 'has_masks' 0 is 1
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_TVChar_optimalKEK_TVN_0.60_WID_1.10_qualifing_path_masks.txt'
+
+Reading filesystem database 'NAT_Master_TDC.db' into memory!
+
+	Number of MASTER vectors read 2000	Number of rising vectors 1000
+	ReadChipEnrollPNs(): Num PNR 32000	Num PNF 32000	Num sams 16
+
+	Number of PNR read 32000	Number of PNF read 32000
+
+Master DB 'NAT_Master_TDC.db'	Netlist name 'SR_RFM_V4_TDC'	Synthesis name 'SRFSyn1'	Device name 'ZYBO'	Placement name 'P1'	Chip name 'C_BenjaminClarizza_N6'
+	MasterVecPrefix '../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs'
+	Chip enroll datafile '../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P1_25C_1.00V_NCs_2000_E_PUFNums.txt'
+
+MasterVecFile
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs.txt'
+MasterMaskFile USED ONLY if 'has_masks' 0 is 1
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_TVChar_optimalKEK_TVN_0.60_WID_1.10_qualifing_path_masks.txt'
+
+Reading filesystem database 'NAT_Master_TDC.db' into memory!
+
+	Number of MASTER vectors read 2000	Number of rising vectors 1000
+	ReadChipEnrollPNs(): Num PNR 32000	Num PNF 32000	Num sams 16
+
+	Number of PNR read 32000	Number of PNF read 32000
+
+
+Adding PUFDesign	Netlist name 'SR_RFM_V4_TDC': Synthesis name 'SRFSyn1'	Chip name 'C_BenjaminClarizza_N6'
+	Setting 'PRAGMA foreign_keys = ON'
+	PUFDesign index 1
+
+
+	PUFInstance index 101
+	New Chip enroll date '2023-04-12 12:27'
+
+ENROLL:	PUFDesign 1: PUFInstance 101	For Num Vectors 2000
+	Wrote Total TimingVals 64000
+Saving 'in memory' database back to filesystem 'NAT_Master_TDC.db'
+Master DB 'NAT_Master_TDC.db'	Netlist name 'SR_RFM_V4_TDC'	Synthesis name 'SRFSyn1'	Device name 'ZYBO'	Placement name 'P2'	Chip name 'C_BenjaminClarizza_N6'
+	MasterVecPrefix '../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs'
+	Chip enroll datafile '../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P2_25C_1.00V_NCs_2000_E_PUFNums.txt'
+
+MasterVecFile
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs.txt'
+MasterMaskFile USED ONLY if 'has_masks' 0 is 1
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_TVChar_optimalKEK_TVN_0.60_WID_1.10_qualifing_path_masks.txt'
+
+Reading filesystem database 'NAT_Master_TDC.db' into memory!
+
+	Number of MASTER vectors read 2000	Number of rising vectors 1000
+	ReadChipEnrollPNs(): Num PNR 32000	Num PNF 32000	Num sams 16
+
+	Number of PNR read 32000	Number of PNF read 32000
+
+
+Adding PUFDesign	Netlist name 'SR_RFM_V4_TDC': Synthesis name 'SRFSyn1'	Chip name 'C_BenjaminClarizza_N6'
+	Setting 'PRAGMA foreign_keys = ON'
+	PUFDesign index 1
+
+
+	PUFInstance index 102
+	New Chip enroll date '2023-04-12 12:27'
+
+ENROLL:	PUFDesign 1: PUFInstance 102	For Num Vectors 2000
+	Wrote Total TimingVals 64000
+Saving 'in memory' database back to filesystem 'NAT_Master_TDC.db'
+Master DB 'NAT_Master_TDC.db'	Netlist name 'SR_RFM_V4_TDC'	Synthesis name 'SRFSyn1'	Device name 'ZYBO'	Placement name 'P3'	Chip name 'C_BenjaminClarizza_N6'
+	MasterVecPrefix '../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs'
+	Chip enroll datafile '../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P3_25C_1.00V_NCs_2000_E_PUFNums.txt'
+
+MasterVecFile
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs.txt'
+MasterMaskFile USED ONLY if 'has_masks' 0 is 1
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_TVChar_optimalKEK_TVN_0.60_WID_1.10_qualifing_path_masks.txt'
+
+Reading filesystem database 'NAT_Master_TDC.db' into memory!
+
+	Number of MASTER vectors read 2000	Number of rising vectors 1000
+	ReadChipEnrollPNs(): Num PNR 32000	Num PNF 32000	Num sams 16
+
+	Number of PNR read 32000	Number of PNF read 32000
+
+
+Adding PUFDesign	Netlist name 'SR_RFM_V4_TDC': Synthesis name 'SRFSyn1'	Chip name 'C_BenjaminClarizza_N6'
+	Setting 'PRAGMA foreign_keys = ON'
+	PUFDesign index 1
+
+
+	PUFInstance index 103
+	New Chip enroll date '2023-04-12 12:28'
+
+ENROLL:	PUFDesign 1: PUFInstance 103	For Num Vectors 2000
+	Wrote Total TimingVals 64000
+Saving 'in memory' database back to filesystem 'NAT_Master_TDC.db'
+Master DB 'NAT_Master_TDC.db'	Netlist name 'SR_RFM_V4_TDC'	Synthesis name 'SRFSyn1'	Device name 'ZYBO'	Placement name 'P4'	Chip name 'C_BenjaminClarizza_N6'
+	MasterVecPrefix '../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs'
+	Chip enroll datafile '../ProvisionData/C_BenjaminClarizza_N6_SR_RFM_V4_TDC_P4_25C_1.00V_NCs_2000_E_PUFNums.txt'
+
+MasterVecFile
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_vecs.txt'
+MasterMaskFile USED ONLY if 'has_masks' 0 is 1
+	'../CHALLENGES/SR_RFM_V4_Random_Rise_1000Vs_Fall_1000Vs_NumSeeds_10_TVChar_optimalKEK_TVN_0.60_WID_1.10_qualifing_path_masks.txt'
+
+Reading filesystem database 'NAT_Master_TDC.db' into memory!
+
+	Number of MASTER vectors read 2000	Number of rising vectors 1000
+	ReadChipEnrollPNs(): Num PNR 32000	Num PNF 32000	Num sams 16
+
+	Number of PNR read 32000	Number of PNF read 32000
+
+
+Adding PUFDesign	Netlist name 'SR_RFM_V4_TDC': Synthesis name 'SRFSyn1'	Chip name 'C_BenjaminClarizza_N6'
+	Setting 'PRAGMA foreign_keys = ON'
+	PUFDesign index 1
+
+
+	PUFInstance index 104
+	New Chip enroll date '2023-04-12 12:28'
+
+ENROLL:	PUFDesign 1: PUFInstance 104	For Num Vectors 2000
+	Wrote Total TimingVals 64000
+Saving 'in memory' database back to filesystem 'NAT_Master_TDC.db'
